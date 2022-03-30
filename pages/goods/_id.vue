@@ -1,11 +1,11 @@
 <template>
   <div>
-    <h1>_id</h1>
+    <h1>goods - _id</h1>
     <nuxt-link to="/">首页</nuxt-link>
   </div>
 </template>
 <script>
 export default {
-  name: 'ViewsDemo',
+  name: 'GoodsId',
 }
 </script>

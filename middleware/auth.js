@@ -1,4 +1,5 @@
-export default (context, next) => {
+export default (context) => {
   //   console.log(context)
-  next()
+  console.log('middleware-auth')
+  //   next()
 }
