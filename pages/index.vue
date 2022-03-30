@@ -17,6 +17,7 @@
 <script>
 export default {
   name: 'IndexPage',
+  transitions: 'index',
   middleware(context) {
     console.log('middleware-page')
   },
