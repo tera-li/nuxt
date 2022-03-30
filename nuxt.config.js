@@ -23,6 +23,14 @@ export default {
 
   router: {
     middleware: 'auth',
+    // 扩展路由
+    extendRoutes(routes, resolve) {
+      routes.push({
+        name: 'IndexPage',
+        path: '/index',
+        component: resolve(__dirname, 'pages/index.vue'),
+      })
+    },
   },
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,

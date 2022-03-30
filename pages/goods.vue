@@ -4,7 +4,7 @@
     <nuxt-link to="/goods/2">动态页面</nuxt-link>
     <nuxt-link to="/goods/child">child页面</nuxt-link>
     <hr />
-    <nuxt-child keep-alive />
+    <Nuxt />
   </div>
 </template>
 <script>
