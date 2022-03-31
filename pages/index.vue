@@ -36,12 +36,12 @@ export default {
     // const res = await fetch('https://api.nuxtjs.dev/posts')
     // return { posts: await res.json }
   },
-  // async asyncData() {
-  //   console.log('asyncData')
-  //   const res = await fetch('https://api.nuxtjs.dev/posts')
-  //   const data = await res.json()
-  //   return { posts: data }
-  // },
+  async asyncData() {
+    console.log('asyncData')
+    const res = await fetch('https://api.nuxtjs.dev/posts')
+    const data = await res.json()
+    return { posts: data }
+  },
   beforeCreate() {
     console.log('beforeCreate')
   },

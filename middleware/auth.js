@@ -1,5 +1,3 @@
-export default (context) => {
-  //   console.log(context)
-  console.log('middleware-auth')
-  //   next()
+export default ({ store, route, redirect, params, query }) => {
+  console.log(route)
 }
